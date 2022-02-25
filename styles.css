@@ -31,6 +31,17 @@ img {
   max-width: 100%;
 }
 
+.bg_image {
+  background: url("/images/pattern-background-mobile.svg") no-repeat
+    center/cover;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
 .card {
   width: 350px;
   height: 500px;
@@ -52,6 +63,7 @@ img {
   margin-top: 30px;
   font-weight: 900;
   color: var(--darkblue);
+  font-size: 30px;
 }
 
 .card p {
@@ -61,6 +73,16 @@ img {
   font-size: 16px;
   font-weight: 500;
   margin-top: 10px;
+}
+
+.card .cardbox {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  padding: 30px;
+  color: var(--desaturated);
+  background-color: var(--verypaleblue);
+  border-radius: 10px;
 }
 
 .attribution {
