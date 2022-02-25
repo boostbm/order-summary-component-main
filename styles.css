@@ -85,6 +85,12 @@ img {
   border-radius: 10px;
 }
 
+.card .cardbox span {
+  color: black;
+  font-weight: 700;
+  display: flex;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
