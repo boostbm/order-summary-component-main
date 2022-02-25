@@ -1,31 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Red Hat Display', sans-serif;
-}
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
 
 :root {
   --paleblue: hsl(225, 100%, 94%);
   --brightblue: hsl(245, 75%, 52%);
   --verypaleblue: hsl(225, 100%, 98%);
-  --desaturated: blue: hsl(224, 23%, 55%);
+  --desaturated: hsl(224, 23%, 55%);
   --darkblue: hsl(223, 47%, 23%);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: var(--paleblue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+  height: 100vh;
+}
 
+img {
+  max-width: 100%;
+}
 
+.card {
+  width: 350px;
+  height: 500px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
 
+.card img {
+  border-radius: 10px 10px 0 0;
+}
 
+.card h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  font-weight: 900;
+  color: var(--darkblue);
+}
 
-.attribution { 
-  font-size: 11px; text-align: center;
+.card p {
+  display: flex;
+  text-align: center;
+  color: var(--desaturated);
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%); 
-    }
+  color: hsl(228, 45%, 44%);
+}
