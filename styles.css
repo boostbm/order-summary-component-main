@@ -91,6 +91,11 @@ img {
   display: flex;
 }
 
+.card .buttons {
+  display: flex;
+  justify-content: center;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
