@@ -27,6 +27,9 @@ body {
   text-align: center;
 }
 
+button {
+  font-family: inherit;
+}
 img {
   max-width: 100%;
 }
